@@ -1,0 +1,19 @@
+name: Faction
+version: 1.0
+author: neferett
+main: net.neferett.linaris.faction.Main
+depend: [Vault, BukkitAPI, Factions]
+commands:
+  kit:
+  kits:
+  money:
+  level:
+  spawn:
+  classement:
+  ec:
+  enderchest:
+  back:
+  pay:
+  craft:
+  givekits:
+  setrank:
