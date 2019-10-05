@@ -29,20 +29,20 @@ repositories {
     mavenCentral()
 
     flatDir {
-        dirs 'C:\\Users\\Jordan\\iCloudDrive\\Documents\\work\\Hyconia\\Libs'
-        dirs 'C:\\Users\\Jordan\\iCloudDrive\\Documents\\work\\Thomas\\Linaris-API\\target'
+        dirs '/Users/neferett/Documents/work/Minecraft/libs'
+        dirs '/Users/neferett/Documents/work/Minecraft/Linaris-API/target'
     }
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compileOnly 'org.projectlombok:lombok:1.18.4'
-    implementation name: 'linaris-gameserver-0.0.1-SNAPSHOT-shaded'
+    implementation name: 'linaris-gameserver-0.0.1-SNAPSHOT'
     implementation name: 'Citizens'
     implementation name: 'Vault-1.6.7'
     implementation name: 'Factions'
     implementation name: 'MassiveCore'
-    implementation name: 'Holograms-2.9.1-SNAPSHOT'
+    implementation name: 'Holograms-2.4.1-SNAPSHOT'
     implementation name: 'spigot'
     annotationProcessor 'org.projectlombok:lombok:1.18.4'
 }

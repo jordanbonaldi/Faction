@@ -20,7 +20,7 @@ public class ScoreBoard extends ScoreBoardModule {
 	public ScoreBoard(final BukkitAPI game) {
 		super(game);
 
-		this.NAME = new RainbowEffect("LINARIS", "§f§l", "§6§l", 40);
+		this.NAME = new RainbowEffect("BattleMine", "§f§l", "§6§l", 40);
 
 	}
 
@@ -66,7 +66,7 @@ public class ScoreBoard extends ScoreBoardModule {
 		lines.put(6, "§6§lLevel§f§l:");
 		lines.put(5, "    §f§l " + rd.getLevel());
 		lines.put(2, "§f");
-		lines.put(1, "§eplay.linaris.fr");
+		lines.put(1, "§eplay.battlemine.fr");
 
 		if (lines.isEmpty())
 			return;
